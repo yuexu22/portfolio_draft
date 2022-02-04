@@ -4,12 +4,16 @@ body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 2em;
+	font-size: 35px;
 	font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -25,10 +29,45 @@ h1{
 
 /*Style the images*/
 img{
-    height: 200px;
-    width:auto;
-    border: 3px solid blue;
-    padding: 25px;
+    height: auto;
+    width: 200px;
+    border: 2px solid grey;
+    padding: 5px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10% 10% 10% 45%;
+    display: block;
+    
 }
+img:hover{
+    
+    border: 2px solid pink;
+    height: auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10% 10% 10% 45%;
+    display: block;
+    
+}
+
+nav li{
+	background-color: #E8D8ED;
+	padding: 20px ;
+	display: inline-block;
+    text-align: center;
+    border:1px solid #E8D8ED;
+    width: 20%;
+}
+
+nav li:hover {
+    background-color: pink;
+  }
+
+
+footer{
+    font-size: 14px;
+    text-align:left;
+    color:darkgray;
+    
+}
+
